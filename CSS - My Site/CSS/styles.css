@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 562%; /* 100% - 16px */
+  margin: 50px auto 0 auto ;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:2rem;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topcontainer {
+  position: relative;
+  background-color: #CDFCF6;
+  padding-top: 50px;
+}
+.summaryh2 {
+  color: #66BFBF;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+.planemoving {
+  display: block;
+  position: absolute;
+  top: 280px;
+  animation-name: slide;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-duration: 20s;
+}
+@keyframes slide
+{
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
+.middlecontainer
+{
+
+}
+.bottomcontainer {
+
+}
+.pro {
+  text-decoration: underline;
+}
+.finals {
+  text-decoration: underline;
+}
+.profilepc {
+  border-radius: 100%;
+}
+.pcpic {
+  border-radius: 100%;
+  width: 15%;
+}
+.codpic {
+  width: 15%;
+}
+.tylue {
+  width: 15%;
+}
+.bottomcloud {
+  position: absolute;
+  left: 450px;
+  bottom: 300px;
+}
+.topcloud {
+  position: absolute;
+  Right: 300px;
+  top: 50px;
+}
+.summary {
+  position: relative;
+  top: 40px
+}
+
+/*#B3FFAE nice colour */
