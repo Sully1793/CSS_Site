@@ -32,28 +32,39 @@ hr  {
    height: 0px;
    width: 5%;
 }
-a {
+a1 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a1:hover {
+  color: #425F57;
+}
+
+a2 {
   color: #7EA04D;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   margin: 10px 20px;
 }
-a:hover {
+a2:hover {
   color: #425F57;
 }
-
 .starcontainer {
   position: relative;
-  background-image: url(".images/starrynight.png");
   background-color:#001C30;
-  background-position: 100%;
-  height: 100px;
+  /* background-position: 100%; */
+  height: 120px;
+  margin: 0px;
 }
 
 .topcontainer {
   position: relative;
-  background-color: #176B87;
-  padding-top: 100px;
+  background-image: linear-gradient(#001C30 5%, #66BFBF 95%,#6C3428 0%);
+  /* background-color: #176B87; trying a gradient colour change */
+  padding-top: 30px;
+  margin: 0px;
 }
 .summaryh2 {
   color: #66BFBF;
@@ -96,6 +107,43 @@ a:hover {
         left: 100%;
     }
 }
+.bottom-page {
+ 
+  background-color: #6C3428;
+  padding: 50px 0 0px ;
+}
+.gettoknowme {
+  background-color: #6C3428;
+  padding: 10px 0 0 0px ;
+}
+.btn1 {
+  background: #4FA095;
+  background-image: -webkit-linear-gradient(top, #BA704F, #DFA878);
+  background-image: -moz-linear-gradient(top, #BA704F, #DFA878);
+  background-image: -ms-linear-gradient(top, #BA704F, #DFA878);
+  background-image: -o-linear-gradient(top, #BA704F, #DFA878);
+  background-image: linear-gradient(to bottom, #BA704F, #DFA878);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #B3FFAE, #3498db);
+  background-image: -moz-linear-gradient(top, #B3FFAE, #3498db);
+  background-image: -ms-linear-gradient(top, #B3FFAE, #3498db);
+  background-image: -o-linear-gradient(top, #B3FFAE, #3498db);
+  background-image: linear-gradient(to bottom, #B3FFAE, #3498db);
+  text-decoration: none;
+}
+
+/* Page 2 */
 .sullydesc{
   text-align: center;
   width: 50%;
@@ -160,7 +208,7 @@ a:hover {
   top: 40px
 }
 
-.btn {
+.btn2 {
   background: #4FA095;
   background-image: -webkit-linear-gradient(top, #4FA095, #2980b9);
   background-image: -moz-linear-gradient(top, #4FA095, #2980b9);
@@ -187,7 +235,7 @@ a:hover {
   text-decoration: none;
 }
 .copyright {
-  color: #7EA04D;
+  color: #ffffff;
   font-size: 0.75rem;
   padding: 20px 0;
 
